@@ -11,11 +11,9 @@
 
 ## Summary
 
-If approved and implemented, this proposal would phase out the subnetwork tokens introduced through HIPs [51][hip-51], [52][hip-52], and [53][hip-53] (IOT and MOBILE) and revert to rewarding network participants directly in HNT. Additionally, HNT emissions allocated to HST holders would end, with emissions redirected to support Helium network builders. Finally, a portion of the unissued HNT (approximately 4.2 million) from the Helium L1 will be allocated to further incentivize participants.
+If approved and implemented, this proposal would phase out the subnetwork tokens introduced through HIPs [51][hip-51], [52][hip-52], and [53][hip-53] (IOT and MOBILE) and the network would return to rewarding participants directly in HNT. Additionally, HNT emissions allocated to HST holders would end and be redirected to the MOBILE treasury until the next halvening (August 1, 2025). Post halvening, these rewards will be issued, like existing emissions, to Hotspot owners and other network participants via the Utility Score. Finally, unissued HNT (approximately 4.2 million) from the Helium L1 would additionally fund the MOBILE treasury.
 
-Moving to a single token simplifies the Helium ecosystem, making it more understandable for current and future network builders and more accessible to crypto community at large. Using HNT as the sole reward currency also corrects the imbalances created by the treasury system. Specifically, MOBILE network participants would see immediate increases in the value of their rewards, while IOT participants’ rewards would continue to be supported as the network grows through ongoing community investment.
-
-Concerns of MOBILE token holders are addressed by a treasury supplement and concerns about ongoing IOT network rewards are managed through an increase in rewards.
+Moving to a single token simplifies the Helium ecosystem, making it more understandable for current and future network builders and more accessible to crypto community at large. Using HNT as the sole reward currency also corrects the imbalances created by the treasury system. Specifically, MOBILE network participants would see immediate increases in the value of their rewards, while IOT participants’ rewards would continue to be supported post-halvening as the network grows through ongoing community investment.
 
 Overall, this proposal would increase rewards for current and future network participants of all networks.
 
@@ -45,14 +43,14 @@ All Helium Ecosystem participants are affected by this proposal.
 
 This proposal suggests several tokenomic changes to simplify the Helium ecosystem and promote future network development.
 
-The changes would become effective on 2025-01-15 (referred to as the “Start Date”). The next HNT “Halvening Date,” marking a change in the emissions schedule and a halvening, is 2025-08-01.
+At a high level, we propose to:
 
-1.	Discontinue IOT and MOBILE emissions on the Start Date, rewarding participants directly in HNT based on Utility Score.
-2.	Discontinue HNT emissions to HST holders, temporarily reallocating these emissions in a 70/30 split to the MOBILE and IOT ecosystems between the Start Date and Halvening Date.
-3.	After the Halvening Date, use the Utility Score to allocate the full annual 7.5 million HNT to the IOT and MOBILE networks. Emissions would be enhanced by 2.175 million HNT from the prior HST allocation.
-4.	Recognize the 4.2 million unissued HNT from Helium L1 after HIP-20. Allocate 70% to the MOBILE treasury and 30% to enhance IOT builder rewards between the Start Date and Halvening Date.
+1. Discontinue HST emissions at the start of "Phase 1" (defined below) and redirect emissions to the MOBILE treasury. This would continue until the next Halvening Date.
+2. Discontinue IOT and MOBILE Emissions at the start of "Phase 2" (also defined below) and reward participants directly in HNT based on the Utility Score.
+3. Recognize the 4.2 million unissued HNT from Helium L1 after HIP-20 and begin emitting these tokens directly into the MOBILE treasury gradually starting in "Phase 2" and ending at the next Halvening.
+4. At the next Halvening, or "Phase 3", we propose that emissions in Phase 1 be directed to all network participants. This would end Phase 1.
 
-The existing IOT and MOBILE treasuries remain operational and governed by veHNT governance. Holders of subnetwork tokens may continue to hold them, or may exchange them for HNT at any time through the treasuries. The exchange rate of the MOBILE treasury will continue to improve until the Halvening Date due to the supplements defined in (2) and (4) above.
+The existing IOT and MOBILE treasuries remain operational and governed by veHNT governance. Holders of subnetwork tokens may continue to hold them, or may exchange them for HNT at any time through the treasuries. The exchange rate of the MOBILE treasury will continue to improve until the Halvening Date due to the supplements defined in (1) and (3) above.
 
 The distribution schedule within each subnetwork remains under the control of subnetwork governance, and is unchanged by this proposal. All subnetwork rewards including veHNT delegations are now distributed in HNT.
 
@@ -70,7 +68,7 @@ For the unallocated percentages (Oracles, for example) or partially unallocated 
 
 ### Treasuries
 
-Treasuries retain their current HNT balances. Existing IOT and MOBILE wallet balances remain unchanged, and holders can continue to hold, or can redeem for HNT at any time at the treasury floor rate.
+Treasuries retain their current HNT balances. Existing IOT and MOBILE wallet balances remain unchanged, and holders can continue to hold, or can redeem for HNT at any time at the treasury rate.
 
 ### Value Imbalances
 
@@ -94,7 +92,7 @@ This proposal introduces provisions to counteract the potential disadvantages to
 
 ### Subnetwork Governance
 
-Subnetwork governance remains in force, and this proposal doesn’t modify the existing system of governance using veIOT and veMOBILE, as derived from locked IOT and MOBILE tokens. While no new subnetwork tokens will be minted, participants can acquire voting rights by purchasing tokens on the open market and locking them.
+Subnetwork governance remains in force, and this proposal doesn't modify the existing system of governance using veIOT and veMOBILE, as derived from locked IOT and MOBILE tokens. While no new subnetwork tokens will be minted, participants can acquire voting rights by purchasing tokens on the open market and locking them.
 
 Eventually, as existing IOT and MOBILE tokens are redeemed through the treasury, a new method of assigning subnetwork voting rights will become appropriate. This proposal recommends that the Helium community enact a new mechanism through a separate HIP, decided by veHNT vote. As an example, the following method is suggested.
 
@@ -107,6 +105,12 @@ However, in the interest of simplicity, this proposal leaves this decision up to
 Subnetwork tokens are currently used for various supply-side operations within subnetworks, such as hex boosting in MOBILE. While IOT and MOBILE tokens will continue to exist after the implementation of this proposal, and can therefore still be used for these purposes, subnetworks are encouraged to adjust these operations to use HNT in the future through subnetwork governance.
 
 ## Implementation
+
+### Phased Approach
+
+1. Phase 1 redirects HST emissions to the MOBILE treasury. As this is a fairly straightforward change, it would require light implementation and security review. It could likely be deployed within weeks of passing the HIP.
+2. Phase 2 is the bulk of work for this proposal. It is expected to take less than a quarter of work but requires significant security review and UX improvements. Users would need to claim rewards as they have been in the past but receive HNT instead of IOT or MOBILE. We propose an implementation date on or before 2025-01-15. It would be a goal of the core developers to ensure this phase could start as soon as possible.
+3. Phase 3 would be implemented prior to the next Halvening, which is currently scheduled for 2025-08-01.
 
 ### HST Reallocation
 
