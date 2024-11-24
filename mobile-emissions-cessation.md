@@ -46,7 +46,7 @@ This HIP will result in the following key actions:
 3. **Burning of Operations Fund MOBILE Tokens**: The Helium Foundation will burn 18.2B MOBILE tokens currently held in the Operations Fund and receive their 1.3M HNT Growth Fund.
 
 ## Implementation Timeline:
-This HIP must be implemented before or simultaneously with the implementation of HIP 138 to ensure a smooth transition and to secure the proposed benefits for the MOBILE network.
+This HIP must be implemented before or simultaneously with the implementation of HIP 138 to ensure a smooth transition and to secure the proposed benefits in HIP 138 for the MOBILE network.
 
 ## Drawbacks
 
