@@ -28,7 +28,7 @@ and
 
 4 [2] under [Detailed Explanation](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#detailed-explanation)
 
-Use `contingent on *the* veMOBILE decision to discontinue MOBILE emissions`.
+Use "contingent on *the* veMOBILE decision to discontinue MOBILE emissions".
 
 But 
 
@@ -44,7 +44,7 @@ and
 
 Under [Unissued HNT Adjustment and Reestablishment of the MOBILE Operations Fund](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#unissued-hnt-adjustment-and-reestablishment-of-the-mobile-operations-fund)
 
-Use `contingent on *a* veMOBILE decision to stop MOBILE emissions`.
+Use "contingent on *a* veMOBILE decision to stop MOBILE emissions".
 
 ## Motivation
 
