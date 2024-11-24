@@ -51,7 +51,7 @@ Feedback will be solicited through:
 
 The passing of this HIP will result in the following key actions:
 
-1. **Cessation of MOBILE Token Emissions**: All new emissions of MOBILE tokens will be halted by the implementation of HIP 138.
+1. **Cessation of MOBILE Token Emissions**: All new emissions of MOBILE tokens will be halted before or simultaneously with the implementation of HIP 138.
 
 2. **HNT Allocation to MOBILE Treasury**: As outlined in HIP 138, 2.9M HNT will be minted and allocated to the MOBILE treasury. This will occur gradually from the implementation date until the next halvening (August 1, 2025).
 
