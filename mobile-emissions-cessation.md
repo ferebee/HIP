@@ -18,13 +18,13 @@ This proposal aims to halt MOBILE token emissions and replace them with HNT emis
 
 HIP 138 states the contingencies for the MOBILE network as follows:
 
-> The additional mint of 2.9M HNT to the MOBILE treasury is intended to support the value of existing MOBILE tokens, rather than to back additional MOBILE emissions. Therefore, it is contingent on a veMOBILE decision to stop MOBILE emissions. The same applies to the Foundation burn of the 18.2B MOBILE tokens in the Operations Fund.
+> The additional mint of 2.9M HNT to the MOBILE treasury is intended to support the value of existing MOBILE tokens, rather than to back additional MOBILE emissions. Therefore, it is contingent on *a* veMOBILE decision to stop MOBILE emissions. The same applies to the Foundation burn of the 18.2B MOBILE tokens in the Operations Fund.
 
 Under [Voting](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#voting)
 
-> Following HIP 20, Helium experienced L1 outages, leaving 4.2 million unminted HNT. This proposal intends to use this HNT in two ways. First, a new gradual emission of HNT into the MOBILE treasury from the implementation date until the next halvening (August 1, 2025) is established, contingent on a veMOBILE decision to stop MOBILE emissions. This would be a total of 2.9M HNT supplementing the MOBILE treasury.
+> Following HIP 20, Helium experienced L1 outages, leaving 4.2 million unminted HNT. This proposal intends to use this HNT in two ways. First, a new gradual emission of HNT into the MOBILE treasury from the implementation date until the next halvening (August 1, 2025) is established, contingent on *a* veMOBILE decision to stop MOBILE emissions. This would be a total of 2.9M HNT supplementing the MOBILE treasury.
 
-> Second, a new MOBILE Growth Fund is established using the remaining 1.3M HNT, which corresponds roughly to the value of the current MOBILE tokens in the Operations Fund at the treasury rate. This fund, directed by the Helium Foundation, is to be used for deployer incentives, such as boosted rewards, subsidized hardware swaps, or incentives for new service providers. To balance this, the Foundation will burn the entirety of its current 18.2B MOBILE holdings, also contingent on a veMOBILE decision to stop MOBILE emissions, thereby decreasing the circulating supply of the MOBILE token and strenghtening the treasury exchange rate.
+> Second, a new MOBILE Growth Fund is established using the remaining 1.3M HNT, which corresponds roughly to the value of the current MOBILE tokens in the Operations Fund at the treasury rate. This fund, directed by the Helium Foundation, is to be used for deployer incentives, such as boosted rewards, subsidized hardware swaps, or incentives for new service providers. To balance this, the Foundation will burn the entirety of its current 18.2B MOBILE holdings, also contingent on *a* veMOBILE decision to stop MOBILE emissions, thereby decreasing the circulating supply of the MOBILE token and strenghtening the treasury exchange rate.
 
 Under [Unissued HNT Adjustment and Reestablishment of the MOBILE Operations Fund](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#unissued-hnt-adjustment-and-reestablishment-of-the-mobile-operations-fund)
 
