@@ -16,8 +16,6 @@
 
 This proposal aims to halt MOBILE token emissions and secure the allocation of 2.9M HNT to the MOBILE treasury, as well as the 1.3M HNT Growth Fund following the burning of 18.2B MOBILE tokens from the Operations Fund, as outlined in HIP 138. This HIP addresses the specific needs of the MOBILE network following the partial approval of HIP 138.
 
-## Motivation
-
 HIP 138 clearly states the contingency for the MOBILE network in its Detailed Explanation section:
 
 "Emit the remaining 2.9M HNT directly into the MOBILE treasury on an epochal basis until the next halvening (2025-08-01), contingent on the veMOBILE decision to discontinue MOBILE emissions." [GitHub](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#detailed-explanation)
@@ -25,6 +23,8 @@ HIP 138 clearly states the contingency for the MOBILE network in its Detailed Ex
 and
 
 "Revoke the remaining 18.2B MOBILE currently in the MOBILE Operations Fund, and request that Helium Foundation burn these tokens, contingent on the veMOBILE decision to discontinue MOBILE emissions." 4-1 under Proposal Details at [heliumvote.com](https://heliumvote.com/hnt/proposals/GttiwuTWBNV2bufNGACLzJnBPXyB3FEdfShYVu8tWF3S)
+
+## Motivation
 
 - To align the MOBILE network with the broader Helium ecosystem's move towards simplification and unified tokenomics.
 - To secure the additional HNT allocation for the MOBILE treasury.
