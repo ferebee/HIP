@@ -12,6 +12,10 @@
 
 - Vote Requirements: veMOBILE Holders
 
+## Important Note
+
+It's important to clarify that this proposal does not aim to eliminate the MOBILE token entirely. Rather, it seeks to halt new emissions of MOBILE tokens to satisfy the contingencies for MOBILE in HIP 138. This HIP focuses on stopping new distribution of MOBILE tokens, not on eliminating the token itself.
+  
 ## Summary
 
 This proposal aims to halt MOBILE token emissions and replace them with HNT emissions in accordance with HIP 138. It seeks to secure the allocation of 2.9M HNT to the MOBILE treasury and establish a new 1.3M HNT MOBILE Growth Fund in exchange for burning 18.2B MOBILE tokens from the Operations Fund. This HIP addresses the specific needs of the MOBILE network following the partial approval of HIP 138.
