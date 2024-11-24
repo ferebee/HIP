@@ -28,7 +28,7 @@ Under [Voting](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#vot
 
 Under [Unissued HNT Adjustment and Reestablishment of the MOBILE Operations Fund](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#unissued-hnt-adjustment-and-reestablishment-of-the-mobile-operations-fund)
 
-The use of "a veMOBILE decision" rather than "the veMOBILE decision" in these contexts is significant. It indicates that the contingency is not tied specifically to the approval of HIP 138, but rather to any decision made by veMOBILE to stop MOBILE emissions. This interpretation, supported by at least two-thirds of the HIP 138 authors, allows for greater flexibility in implementing these changes.
+The use of "***a*** veMOBILE decision" rather than "***the*** veMOBILE decision" in these contexts is significant. It indicates that the contingency is not tied specifically to the approval of HIP 138, but rather to any decision made by veMOBILE to stop MOBILE emissions. This interpretation, supported by at least two-thirds of the HIP 138 authors, allows for greater flexibility in implementing these changes.
 
 Consequently, this HIP proposes to fulfill the contingency required by HIP 138 by providing a veMOBILE decision to discontinue MOBILE emissions. Upon approval, this would trigger the allocation of 2.9M HNT to the MOBILE treasury, the establishment of the 1.3M HNT MOBILE Growth Fund, and the burning of 18.2B MOBILE tokens from the Operations Fund, as outlined in HIP 138.
 
