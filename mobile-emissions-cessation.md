@@ -14,7 +14,7 @@
 
 ## Summary
 
-This proposal aims to halt MOBILE token emissions and secure the allocation of 2.9M HNT to the MOBILE treasury, as well as the 1.3M HNT Growth Fund following the burning of 18.2B MOBILE tokens from the Operations Fund, as outlined in HIP 138. This HIP addresses the specific needs of the MOBILE network following the partial implementation of HIP 138.
+This proposal aims to halt MOBILE token emissions and secure the allocation of 2.9M HNT to the MOBILE treasury, as well as the 1.3M HNT Growth Fund following the burning of 18.2B MOBILE tokens from the Operations Fund, as outlined in HIP 138. This HIP addresses the specific needs of the MOBILE network following the partial approval of HIP 138.
 
 ## Motivation
 
