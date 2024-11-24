@@ -46,6 +46,8 @@ Under [Unissued HNT Adjustment and Reestablishment of the MOBILE Operations Fund
 
 Use "contingent on *a* veMOBILE decision to stop MOBILE emissions".
 
+The usage of "the" ties the conditional to HIP-138, but "a" suggests that the decision could be any decision made by veMOBILE to discontinue MOBILE emissions, not necessarily a specific one.
+
 ## Motivation
 
 - To align the MOBILE network with the broader Helium ecosystem's move towards simplification and unified tokenomics.
