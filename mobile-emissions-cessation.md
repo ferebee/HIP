@@ -18,6 +18,14 @@ This proposal aims to halt MOBILE token emissions and secure the allocation of 2
 
 ## Motivation
 
+HIP 138 clearly states the contingency for the MOBILE network in its Detailed Explanation section:
+
+"Emit the remaining 2.9M HNT directly into the MOBILE treasury on an epochal basis until the next halvening (2025-08-01), contingent on the veMOBILE decision to discontinue MOBILE emissions." [GitHub](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#detailed-explanation)
+
+and
+
+"Revoke the remaining 18.2B MOBILE currently in the MOBILE Operations Fund, and request that Helium Foundation burn these tokens, contingent on the veMOBILE decision to discontinue MOBILE emissions." 4-1 under Proposal Details at [heliumvote.com](https://heliumvote.com/hnt/proposals/GttiwuTWBNV2bufNGACLzJnBPXyB3FEdfShYVu8tWF3S)
+
 - To align the MOBILE network with the broader Helium ecosystem's move towards simplification and unified tokenomics.
 - To secure the additional HNT allocation for the MOBILE treasury.
 - To reduce the circulating supply of MOBILE tokens.
@@ -37,13 +45,13 @@ Feedback will be solicited through:
 
 ## Detailed Explanation
 
-This HIP will result in the following key actions:
+The passing of this HIP will result in the following key actions:
 
 1. **Cessation of MOBILE Token Emissions**: All new emissions of MOBILE tokens will be halted upon implementation of this HIP.
 
 2. **HNT Allocation to MOBILE Treasury**: As outlined in HIP 138, 2.9M HNT will be minted and allocated to the MOBILE treasury. This will occur gradually from the implementation date until the next halvening (August 1, 2025).
 
-3. **Burning of Operations Fund MOBILE Tokens**: The Helium Foundation will burn 18.2B MOBILE tokens currently held in the Operations Fund and receive their 1.3M HNT Growth Fund.
+3. **Burning of Operations Fund MOBILE Tokens**: The Helium Foundation will burn 18.2B MOBILE tokens currently held in the Operations Fund.
 
 ## Implementation Timeline:
 This HIP must be implemented before or simultaneously with the implementation of HIP 138 to ensure a smooth transition and to secure the proposed benefits in HIP 138 for the MOBILE network.
