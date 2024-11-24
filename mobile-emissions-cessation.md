@@ -14,7 +14,7 @@
 
 ## Important Note
 
-It's important to clarify that this proposal does not aim to eliminate the MOBILE token entirely. Rather, it seeks to halt new emissions of MOBILE tokens to satisfy the contingencies for MOBILE in HIP 138. This HIP focuses on stopping the emission of MOBILE tokens, not on eliminating the token itself.
+It's important to clarify that this proposal does not aim to eliminate the MOBILE token entirely. Rather, it seeks to halt new emissions of MOBILE tokens to satisfy the contingencies for MOBILE in HIP 138, not to eliminate the token itself.
   
 ## Summary
 
