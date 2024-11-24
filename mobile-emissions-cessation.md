@@ -46,7 +46,7 @@ This HIP proposes the following key actions:
 3. **Burning of Operations Fund MOBILE Tokens**: The Helium Foundation will burn 18.2B MOBILE tokens currently held in the Operations Fund and receive their 1.3M HNT Growth Fund.
 
 ## Implementation Timeline:
-Before the implementation of [HIP 138](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#implementation)
+Before the [implementation](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#implementation) of HIP 138
 
 ## Drawbacks
 
