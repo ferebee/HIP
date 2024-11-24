@@ -18,11 +18,11 @@ This proposal aims to halt MOBILE token emissions, which will be replaced by HNT
 
 HIP 138 clearly states the contingency for the MOBILE network in its Detailed Explanation section:
 
-"Emit the remaining 2.9M HNT directly into the MOBILE treasury on an epochal basis until the next halvening (2025-08-01), contingent on the veMOBILE decision to discontinue MOBILE emissions." 4-2 under [Detailed Explanation](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#detailed-explanation)
+> "Emit the remaining 2.9M HNT directly into the MOBILE treasury on an epochal basis until the next halvening (2025-08-01), contingent on the veMOBILE decision to discontinue MOBILE emissions." 4-2 under [Detailed Explanation](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#detailed-explanation)
 
 and
 
-"Revoke the remaining 18.2B MOBILE currently in the MOBILE Operations Fund, and request that Helium Foundation burn these tokens, contingent on the veMOBILE decision to discontinue MOBILE emissions." 3 under [Detailed Explanation](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#detailed-explanation)
+> "Revoke the remaining 18.2B MOBILE currently in the MOBILE Operations Fund, and request that Helium Foundation burn these tokens, contingent on the veMOBILE decision to discontinue MOBILE emissions." 3 under [Detailed Explanation](https://github.com/helium/HIP/blob/main/0138-return-to-hnt.md#detailed-explanation)
 
 ## Motivation
 
