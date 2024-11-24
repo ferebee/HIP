@@ -22,7 +22,7 @@ HIP 138 clearly states the contingency for the MOBILE network in its Detailed Ex
 
 and
 
-"Revoke the remaining 18.2B MOBILE currently in the MOBILE Operations Fund, and request that Helium Foundation burn these tokens, contingent on the veMOBILE decision to discontinue MOBILE emissions." 4-1 under Proposal Details at [heliumvote.com](https://heliumvote.com/hnt/proposals/GttiwuTWBNV2bufNGACLzJnBPXyB3FEdfShYVu8tWF3S)
+"Revoke the remaining 18.2B MOBILE currently in the MOBILE Operations Fund, and request that Helium Foundation burn these tokens, contingent on the veMOBILE decision to discontinue MOBILE emissions." 4-3 under Proposal Details at [heliumvote.com](https://heliumvote.com/hnt/proposals/GttiwuTWBNV2bufNGACLzJnBPXyB3FEdfShYVu8tWF3S)
 
 ## Motivation
 
