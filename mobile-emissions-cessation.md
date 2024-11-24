@@ -67,6 +67,10 @@ This proposal is the best path forward because:
 - It secures additional value for the MOBILE network through HNT allocation.
 - It simplifies the reward structure, making it more attractive for network growth.
 
+## Deployment Impact
+
+This proposal will be implemented by Helium core developers. An initial investigation of the work required suggests that this HIP can be implemented within the specified timeline.
+
 ## Success Metrics
 
 This HIP is successful if MOBILE emissions cease by the implementation of HIP 138.
