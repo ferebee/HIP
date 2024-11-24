@@ -37,7 +37,7 @@ Feedback will be solicited through:
 
 ## Detailed Explanation
 
-This HIP proposes the following key actions:
+This HIP will result in the following key actions:
 
 1. **Cessation of MOBILE Token Emissions**: All new emissions of MOBILE tokens will be halted upon implementation of this HIP.
 
