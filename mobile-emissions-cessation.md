@@ -58,3 +58,7 @@ This proposal is the best path forward because:
 - It aligns with the broader Helium ecosystem's direction as set by HIP 138.
 - It secures additional value for the MOBILE network through HNT allocation.
 - It simplifies the reward structure, making it more attractive for network growth.
+
+## Success Metrics
+
+Successful if MOBILE emissions cease before the implementation of HIP 138
