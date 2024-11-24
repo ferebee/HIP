@@ -36,9 +36,6 @@ The use of "***a*** veMOBILE decision" rather than "***the*** veMOBILE decision"
 
 Consequently, this HIP proposes to fulfill the contingency required by HIP 138 by providing a veMOBILE decision to discontinue MOBILE emissions.
 
-Here is the discrepancy explained by Siegfried, a member of our Discord Community.
-![image](https://github.com/user-attachments/assets/a55fdafe-09e5-4eca-9f2a-6629fa0763e9)
-
 ## Motivation
 
 - To align the MOBILE network with the broader Helium ecosystem's move towards simplification and unified tokenomics.
