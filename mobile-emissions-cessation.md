@@ -61,4 +61,4 @@ This proposal is the best path forward because:
 
 ## Success Metrics
 
-Successful if MOBILE emissions cease before the implementation of HIP 138
+This HIP is successful if MOBILE emissions cease by the implementation of HIP 138.
