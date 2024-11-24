@@ -45,8 +45,6 @@ This HIP proposes the following key actions:
 
 3. **Burning of Operations Fund MOBILE Tokens**: The Helium Foundation will burn 18.2B MOBILE tokens currently held in the Operations Fund and receive their 1.3M HNT Growth Fund.
 
-4. **Direct HNT Rewards**: MOBILE network participants will receive rewards directly in HNT, based on the existing Utility Score mechanism.
-
 ## Implementation Timeline:
 On or before January 15, 2025.
 
