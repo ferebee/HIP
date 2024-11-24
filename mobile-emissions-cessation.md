@@ -55,7 +55,9 @@ The passing of this HIP will result in the following key actions:
 
 2. **HNT Allocation to MOBILE Treasury**: As outlined in HIP 138, 2.9M HNT will be minted and allocated to the MOBILE treasury. This will occur gradually from the implementation date until the next halvening (August 1, 2025).
 
-3. **Exchange of Operations Fund MOBILE Tokens**: The Helium Foundation will burn the 18.2B MOBILE tokens currently held in the Operations Fund for a new 1.3M HNT MOBILE Growth Fund. This exchange is necessary because, as a non-profit, the Foundation cannot destroy its assets without compensation. The Growth Fund will be used to support future development of the MOBILE network.
+3. **Exchange of Operations Fund MOBILE Tokens**: The Helium Foundation will burn the 18.2B MOBILE tokens currently held in the Operations Fund in exchange for a new 1.3M HNT MOBILE Growth Fund. This exchange process involves two key steps:
+   1. The creation of a new 1.3M HNT MOBILE Growth Fund, which is part of the 4.2 million unissued HNT from the Helium L1 mentioned in HIP 138.
+   2. The burning of 18.2B MOBILE tokens by the Helium Foundation from the Operations Fund.
 
 ## Implementation Timeline:
 This HIP must be implemented before or simultaneously with the implementation of HIP 138 to ensure a smooth transition and to secure the proposed benefits in HIP 138 for the MOBILE network.
