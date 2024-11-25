@@ -41,7 +41,7 @@ The passing of this HIP will result in the following key actions:
 
 2. **HNT Allocation to MOBILE Treasury**: As specified in [HIP-138][hip-138], 2.9M HNT will be minted and allocated over time to the MOBILE treasury.
 
-3. **Exchange of Operations Fund MOBILE Tokens**: As specified in [HIP-138][hip-138], Helium Foundation will burn MOBILE tokens from the MOBILE Operations Fund, and the burned tokens will be replaced through a one-time mint of 1.3M HNT.
+3. **Exchange of Operations Fund MOBILE Tokens**: As specified in [HIP-138][hip-138], Helium Foundation will receive 1.3M HNT for the MOBILE Operations Fund, and in return will burn 18.2B MOBILE tokens from the existing Fund.
 
 This aligns with the intent of the contingency provisions in [HIP-138][hip-138], which that proposal explains as follows in the `Voting` section:
 
