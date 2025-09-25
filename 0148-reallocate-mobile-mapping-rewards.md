@@ -17,7 +17,9 @@ Since the launch of Helium Mobile, the number of mobile mappers has grown signif
 
 For completeness, [HIP-79][hip-79] and [HIP-118] are effectively repealed with this HIP, with [HIP-53][hip-53] adjusted to move the 10% reservation for Mobile Mapping to Data Rewards.
 
-Since subscriber rewards are no longer focused on crypto rewards, the crypto-based user incentive programs that got allocations out of the Service Provider Rewards Pool in [HIP-114][hip-114] will also be repealed.
+With no other Service Providers joining the network, [HIP-87][hip-87] that defined a proportional rewards system for Service Providers based on Data Credits (DC) burned will also be repealed, which further simplifies the rewards structure.
+
+Given the above, combined with subscriber rewards that are no longer focused on crypto rewards, the crypto-based user incentive programs that got allocations out of the Service Provider Rewards Pool Overage in [HIP-114][hip-114] will also be repealed.
 
 As an additional simplification of rewards, this HIP proposes to allocate the previously burnt Oracle Operator rewards to the Service Provider Rewards Pool, simplifying the on-chain accounting and behavior.
 
@@ -31,7 +33,9 @@ The issues with Mobile Mapping include:
 4. The number of Helium Mobile subscribers turning off mapping is quite high given the impact on battery and the lack of clear benefit to the end user once the focus shifted to normal, non-crypto subscribers.
 5. While the mapping data set has been used in an "observed demand" layer on Helium World, it has not been very useful in guiding deployers to locations to deploy at. This is partially due to polluted data sets, but mostly because carrier offload locations are a much higher quality signal of where to deploy than mapping data.
 
-Helium Mobile has had much more success in attracting and retaining subscribers that are not crypto-focused. While referral rewards are a great way to incentivize existing subscribers to refer new subscribers, the original intent of the crypto-based Referral program is replaced with a points-based program. The Referral rewards were taken as a carrier-configurable percentage of the Service Provider Pool. With this HIP, we propose to have them stay in the Service Provider Rewards pool for use by the Service Provider for user and networking incentives.
+The Service Provider Rewards Pool was designed to reward multiple Service Providers on the network based on their contribution to the network. Since that has not materialized, has existing complexity around both tracking the DC burned, and raises questions what to do with any overage if the SP does not transfer enough to use up the pool fully. The Referral program was designed to try to utilize these overages but the same effect can be achieved in other ways.
+
+Helium Mobile has had much more success in attracting and retaining subscribers that are not crypto-focused. While referral rewards are a great way to incentivize existing subscribers to refer new subscribers, the original intent of the crypto-based Referral program is replaced with a points-based program. The Referral rewards were taken as a carrier-configurable percentage of the Service Provider Pool Overage. With this HIP, we propose to have them stay in the Service Provider Rewards pool for use by the Service Provider for user and networking incentives.
 
 Finally, since the Oracle Operator rewards are not being used, we propose to move them to the Service Provider Rewards pool. This simplifies the rewards structure to a simpler set of deployers, stakers, and service providers.
 
@@ -42,7 +46,7 @@ This proposal affects:
 - Legacy Crypto Mappers, which would lose their mapping rewards. The upside is they retain a competitive cell phone plan.
 - Helium Mobile would see the rewards shift from per-subscriber mapping rewards to a simpler Service Provider rewards model.
 - Subscriber Referral Programs, which will be terminated as part of this HIP.
-- Nova, as the Oracle Operator will no longer have access to a future Oracle Operator pool since the rewards will be moved to the Service Provider Rewards Pool.
+- Nova, as the Oracle Operator will no longer have access to a future Oracle Operator pool since the rewards will be moved to the Service Provider Rewards Pool, which may be re-allocated for other uses in the future.
 
 ## Detailed Explanation
 
@@ -64,11 +68,15 @@ A table of the percentage changes over time is given below. The last column show
 | **Stakers**                          |    6%    |    6%    |    6%    |    6%    |
 | **Total**                            | **100%** | **100%** | **100%** | **100%** |
 
-### Repeal of HIP-70, HIP-79, HIP-118, and HIP-114
+### Repeal of HIP-79, HIP-87, HIP-118, and HIP-114
 
-[HIP-79][hip-79] defined the increase of the Mobile Mapping Rewards by allocating an additional 10% of emissions from Service Provider Rewards to Mobile Mapping Rewards. [HIP-118][hip-118] defined a more granular breakdown of the Mobile Mapping rewards to include Verification Mapping behavior. [HIP-114][hip-114] defined a mechanism for Service Providers to allocate portions of Service Provider Rewards to Referral like programs.
+[HIP-79][hip-79] defined the increase of the Mobile Mapping Rewards by allocating an additional 10% of emissions from Service Provider Rewards to Mobile Mapping Rewards. [HIP-118][hip-118] defined a more granular breakdown of the Mobile Mapping rewards to include Verification Mapping behavior.
 
-This HIP will remove the need for these three HIPs. Future systems for Verification Mapping like behavior, will be defined as needed and could be achieved without a rewards system.
+This HIP will remove the need for these two mapping related HIPs. Future systems for Verification Mapping like behavior, will be defined as needed and could be achieved without a rewards system.
+
+[HIP-87][hip-87] defined a proportional rewards system for Service Providers based on the amount of Data Credits (DC) burned. This was originally designed to reward multiple Service Providers on the network based on their contribution to the network. Since that has not materialized, has existing complexity around both tracking the DC burned, and raises questions what to do with any overage if the SP does not transfer enough to use up the pool fully, this HIP will repeal [HIP-87][hip-87]. Service Provider Rewards will be emitted directly to the current single active Service Provider (Nova).
+
+[HIP-114][hip-114] defined a mechanism for Service Providers to allocate portions of Service Provider Rewards to Referral like programs before any Service Provider Reward overage is burned. Given the repeal of [HIP-87][hip-87] this HIP will end the involved complexity.
 
 ### Adjustment to HIP-53
 
@@ -78,7 +86,7 @@ In addition, [HIP-53][hip-53] also defined the 4% of emissions to Oracle Operato
 
 ## Drawbacks
 
-- User demand data for Helium Mobile will not be available in the same form. This is mitigated by getting a much larger volume of high-quality tower-based data to infer both valid subscriber activity and approximate demand areas.
+- Without discovery mapping data, geographic user demand data for Helium Mobile will not be available in the same form. This is mitigated by getting a much larger volume of high-quality tower-based data to infer both valid subscriber activity and approximate demand areas.
 
 ## Unresolved Questions
 
@@ -87,6 +95,7 @@ In addition, [HIP-53][hip-53] also defined the 4% of emissions to Oracle Operato
 Core developers will complete the implementation of this HIP on approval.
 
 [hip-53]: https://github.com/helium/HIP/blob/main/0053-mobile-dao.md
+[hip-87]: https://github.com/helium/HIP/blob/main/0087-proportional-service-provider-rewards.md
 [hip-79]: https://github.com/helium/HIP/blob/main/0079-increase-mobile-mapping-rewards.md
 [hip-118]: https://github.com/helium/HIP/blob/main/0118-mobile-verification-mapping.md
 [hip-114]: https://github.com/helium/HIP/blob/main/0114-mobile-referral-programs.md
