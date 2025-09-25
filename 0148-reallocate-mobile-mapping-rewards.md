@@ -11,17 +11,18 @@
 
 ## Summary
 
-Currently, a total of 20% of the HNT emissions to the Mobile network are reserved for Mobile Mapping rewards, with 10% allocated in [HIP-53][hip-53] and an additional 10% moved from Service Provider Rewards in [HIP-79][hip-79] and a more detailed breakdown for Verification Mapping in [HIP-118][hip-118].
+Currently, 20% of HNT emissions allocated to the Mobile network are reserved for Mobile Mapping rewards. Despite a growing number of mappers since Helium Mobile launched, mapping has not delivered the impact originally intended. This proposal aims to simplify the reward structure and refocus incentives by making the following changes:
 
-Since the launch of Helium Mobile, the number of mobile mappers has grown significantly, but it has struggled to provide the impact the original HIP intended to achieve. This HIP proposes to move the 10% reservation of emissions for Mobile Mapping back to Service Provider Rewards and the original 10% into the Data Rewards Pool.
+1. Move the 10% back into the Service Provider Rewards Pool as originally intended prior to [HIP-79][hip-79].
+2. Move the remaining 10% of Mobile Mapping rewards to the Data Transfer pool for coverage deployers.
+3. Repeal the [HIP-79][hip-79], [HIP-114][hip-114], and [HIP-118][hip-118] to reflect these changes.
 
-For completeness, [HIP-79][hip-79] and [HIP-118] are effectively repealed with this HIP, with [HIP-53][hip-53] adjusted to move the 10% reservation for Mobile Mapping to Data Rewards.
+In addition, this HIP proposes the following changes to the Service Provider rewards to further simplify the Mobile tokenomics:
 
-With no other Service Providers joining the network, [HIP-87][hip-87] that defined a proportional rewards system for Service Providers based on Data Credits (DC) burned will also be repealed, which further simplifies the rewards structure.
-
-Given the above, combined with subscriber rewards that are no longer focused on crypto rewards, the crypto-based user incentive programs that got allocations out of the Service Provider Rewards Pool Overage in [HIP-114][hip-114] will also be repealed.
-
-As an additional simplification of rewards, this HIP proposes to allocate the previously burnt Oracle Operator rewards to the Service Provider Rewards Pool, simplifying the on-chain accounting and behavior.
+1. Remove the Oracle Operator rewards allocation (4%) and allocate it to the Service Provider pool.
+2. Remove the proportional Service Provider rewards system based on DC burn introduced in [HIP-87][hip-87] and emit rewards to the Nova Service Provider.
+3. Remove the Referral program introduced in [HIP-114][hip-114] that allocated a portion of unused Service Provider rewards to incentive programs.
+4. Repeal [HIP-87][hip-87], and [HIP-114][hip-114] to reflect these changes.
 
 ## Motivation
 
@@ -34,8 +35,6 @@ The issues with Mobile Mapping include:
 5. While the mapping data set has been used in an "observed demand" layer on Helium World, it has not been very useful in guiding deployers to locations to deploy at. This is partially due to polluted data sets, but mostly because carrier offload locations are a much higher quality signal of where to deploy than mapping data.
 
 The Service Provider Rewards Pool was designed to reward multiple Service Providers on the network based on their contribution to the network. Since that has not materialized, has existing complexity around both tracking the DC burned, and raises questions what to do with any overage if the SP does not transfer enough to use up the pool fully. The Referral program was designed to try to utilize these overages but the same effect can be achieved in other ways.
-
-Helium Mobile has had much more success in attracting and retaining subscribers that are not crypto-focused. While referral rewards are a great way to incentivize existing subscribers to refer new subscribers, the original intent of the crypto-based Referral program is replaced with a points-based program. The Referral rewards were taken as a carrier-configurable percentage of the Service Provider Pool Overage. With this HIP, we propose to have them stay in the Service Provider Rewards pool for use by the Service Provider for user and networking incentives.
 
 Finally, since the Oracle Operator rewards are not being used, we propose to move them to the Service Provider Rewards pool. This simplifies the rewards structure to a simpler set of deployers, stakers, and service providers.
 
@@ -78,7 +77,7 @@ This HIP will remove the need for these two mapping related HIPs. Future systems
 
 [HIP-114][hip-114] defined a mechanism for Service Providers to allocate portions of Service Provider Rewards to Referral like programs before any Service Provider Reward overage is burned. Given the repeal of [HIP-87][hip-87] this HIP will end the involved complexity.
 
-### Adjustment to HIP-53
+### Adjustments to HIP-53
 
 [HIP-53][hip-53] defined the original 10% reservation of HNT emissions to Mobile Mapping rewards. This HIP will adjust the reservation to move the 10% to the Data Rewards Pool.
 
