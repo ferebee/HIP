@@ -72,7 +72,7 @@ This change introduces the potential for new forms of gaming. That is, without C
 
 The implementation will be completed by Nova in two stages:
 
-1. **Initial Rollout:** Run Demand Sampling for 30 days to collect data and resolve any bugs or edge cases related to probing behavior.
+1. **Initial Rollout:** Run Demand Sampling for 30 days to collect data and resolve any bugs or edge cases related to Sampling behavior.
 2. **Activation:** After the 30-day period, if no major changes to the approved algorithm are needed, user metrics from Demand Sampling will begin to affect PoC rewards, and may be made available to MNOs for use in their selection process.
 
 ---
