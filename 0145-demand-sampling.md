@@ -1,6 +1,6 @@
 # HIP 145: Demand Sampling
 
-- Authors: [@zer0tweets](https://twitter.com/zer0tweets), [@jhiller](https://twitter.com/jhiller)
+- Authors: [@zer0tweets](https://twitter.com/zer0tweets), [@jhiller](https://twitter.com/jhiller), [@madninja](https://twitter.com/madninja)
 - Start Date: 2025-06-23
 - Category: Economic, Technical
 - Original HIP PR: [#1171](https://github.com/helium/HIP/pull/1171)
